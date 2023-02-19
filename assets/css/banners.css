@@ -1,0 +1,7 @@
+:root {
+    --texto-banner: #000;
+}
+
+.banners p, .banners h5 {
+    color: var(--texto-banner);
+}
