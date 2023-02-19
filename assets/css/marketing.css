@@ -1,0 +1,35 @@
+:root {
+    --margin-color: #DCDCDC;
+}
+
+
+.marketing {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 3.125rem;
+    flex-wrap: wrap;
+
+} 
+
+.card-img-top {
+    width: 6.25rem;
+    height: 6.25rem;
+    padding: 0.3125rem;
+}
+
+.marketing
+
+
+.margin {
+    width: 95%;
+    margin: 5rem;
+    border-bottom: 0.125rem solid var(--margin-color);
+}
+
+.card {
+    padding: 2rem 0;
+}

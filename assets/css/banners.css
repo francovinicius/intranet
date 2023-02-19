@@ -2,6 +2,10 @@
     --texto-banner: #000;
 }
 
+.banners{
+margin-bottom: 5rem;
+}
+
 .banners p, .banners h5 {
     color: var(--texto-banner);
 }
