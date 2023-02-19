@@ -1,5 +1,5 @@
 :root {
-    --margin-color: #DCDCDC;
+    --margin-color: #cdcdcd;
 }
 
 
@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     
-    gap: 3.125rem;
+    gap: 15rem;
     flex-wrap: wrap;
 
 } 
@@ -18,15 +18,14 @@
 .card-img-top {
     width: 6.25rem;
     height: 6.25rem;
-    padding: 0.3125rem;
+    padding: 1rem;
+
+    margin-bottom: 2rem;
 }
-
-.marketing
-
 
 .margin {
     width: 95%;
-    margin: 5rem;
+    margin: 2rem;
     border-bottom: 0.125rem solid var(--margin-color);
 }
 
