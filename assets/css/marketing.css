@@ -19,13 +19,11 @@
     width: 6.25rem;
     height: 6.25rem;
     padding: 1rem;
-
-    margin-bottom: 2rem;
 }
 
 .margin {
     width: 95%;
-    margin: 2rem;
+    margin: 1rem;
     border-bottom: 0.125rem solid var(--margin-color);
 }
 
