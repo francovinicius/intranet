@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="./assets/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -44,7 +46,7 @@
 
     <main>
 
-        <section class="banners">
+        <section class="banners" id="banners">
 
 
            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
@@ -93,7 +95,7 @@
 
         </section>
 
-        <section class="marketing">
+        <section class="marketing" is="marketing">
 
             <div class="card border-light" style="width: 22rem;">
                 <img src="./assets/img/logo.svg" class="card-img-top" alt="Logo da Sarton">
@@ -193,18 +195,60 @@
                     </div>
                   </div>
             </div>
-            
 
             <div class="margin"></div>
+            
+
+
         </section>
 
-        <section class=""></section>
+        <section class="contatos" id="contatos">
+            
+            <div class="div-email">
+                <h4>Entre em contato conosco</h4>
+                <form action="https://formsubmit.co/seuemail@email.com" method="POST">
+                    <div class="input-group mb-2">
+                        <input type="text" name="name" aria-label="First name" class=" form-control bg-dark p-2 text-light" required placeholder="Digite seu nome completo">
+                    </div>
+                    <div class="input-group mb-2 ">
+                        <input type="email" name="email" aria-label="First name" class="bg-dark p-2 text-light form-control" required placeholder="Digite seu email">
+                    </div>
+                
+                    <div class="input-group mb-2" >
+                        <textarea class="form-control bg-dark p-2 text-light" name="menssage" id="exampleFormControlTextarea1" rows="3" required placeholder="Assunto"></textarea>
+                    </div>
+            
+                    <button type="button d-flex justify-content-center submit" class="btn btn-primary" target="blank">Enviar</button>
+            
+                    <!--1 para trazer como novo contatto
+                        2 para não entrar como spam
+                        3 para desabilitar o capcha -->
+            
+                    <input type="hidden" name="_subject" value="Novo Contato!">
+                    <input type="text" name="_honey" style="display: none;">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://envio-email-por-form.vercel.app/" target="blank">
+                  </form>
+            </div>
+
+            <div class="middlee">
+
+                <a class="btnn" href="mailto:duartevini.dev@gmail.com?subject=Oportunidade&body=Olá vinicius, tudo bem? Me chamo ..... vim pelo seu portfólio e estou entrando em contato por ....">
+                  <i class="fab fa-google"></i>
+                </a>
+          
+                <a class="btnn" href="https://wa.me/+5524999879994" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+                          
+                <a class="btnn" href="https://www.linkedin.com/in/vinicius-franco-duarte/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                
+              </div>
+        </section>
 
     </main>
-    <footer>
-
-    </footer>
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
