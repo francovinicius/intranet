@@ -15,6 +15,14 @@
 
 } 
 
+.marketing h5 {
+    font-size: 18px;
+}
+
+.marketing p {
+    font-size: 12px;
+}
+
 .card-img-top {
     width: 6.25rem;
     height: 6.25rem;
