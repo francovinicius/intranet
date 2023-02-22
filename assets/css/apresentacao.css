@@ -64,3 +64,17 @@
     
     
 }
+
+@media screen and (min-width:1400px) {
+    .texto-apresentacao {
+
+        width: 37.5rem;
+    }
+    
+    .img-apresentacao {
+    
+        width: 37.5rem;
+    }
+    
+    
+}
