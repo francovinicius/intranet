@@ -1,0 +1,15 @@
+.info-gerais {
+    margin-left: 1rem;
+}
+
+.div-card-info {
+    margin: 5rem 0;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card-info img {
+    margin: 0 1rem;
+    padding-top: 20%;
+}
+
+
