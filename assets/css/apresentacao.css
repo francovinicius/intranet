@@ -8,7 +8,7 @@
 
 .img-apresentacao {
 
-    width: 18.75rem;
+    width: 18rem;
 }
 
 .div-apresentacao {
@@ -34,6 +34,11 @@
     .display-menor{
         display: none;
     }
+
+    .img-apresentacao {
+    
+        width: 19rem;
+    }
     
 }
 
@@ -45,7 +50,7 @@
     
     .img-apresentacao {
     
-        width: 25rem;
+        width: 20rem;
     }
     
     
@@ -73,7 +78,7 @@
     
     .img-apresentacao {
     
-        width: 37.5rem;
+        width: 37rem;
     }
     
     
