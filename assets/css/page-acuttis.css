@@ -1,4 +1,12 @@
+.duvidas {
+    margin-bottom: 20rem;
+}
 
+
+.duvidas div h1 {
+    margin: 0 0 10rem 2rem;
+    width: 80%;
+}
 .accordion-itens {
 
     width: 70%;
