@@ -7,6 +7,10 @@ footer{
     padding: 2rem 0;
 }
 
+.div-txt-contatos {
+    margin-bottom: 2rem;
+}
+
 .div-footer {
     display: flex;
     flex-direction: column;
