@@ -4,6 +4,7 @@
 @import url('./apresentacao.css');
 @import url('./footer.css');
 @import url('./info-gerais.css');
+@import url('./page-acuttis.css');
 
 :root {
     --cor-texto-geral: #5a5959;
