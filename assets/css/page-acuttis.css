@@ -4,11 +4,14 @@
 
 
 .duvidas div h1 {
-    margin: 0 0 10rem 2rem;
     width: 80%;
+}
+
+.duvidas div img {
+    margin-bottom: 5rem;
 }
 .accordion-itens {
 
     width: 70%;
-    margin-bottom: 1rem;
+    margin-bottom: rem;
 }
